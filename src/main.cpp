@@ -53,8 +53,8 @@ int main(int argc, const char **argv)
     }
    
     float start_x, start_y, end_x, end_y;
-  	std::cout<<"Enter start_x, start_y, end_x, and end_y (The values should be in the range of 0 to 100" << std::endl; 
-  	std::cin>>start_x >> start_y >> end_x >> end_y;
+    std::cout<<"Enter start_x, start_y, end_x, and end_y (The values should be in the range of 0 to 100" << std::endl; 
+    std::cin>>start_x >> start_y >> end_x >> end_y;
 
     // Build Model.
     RouteModel model{osm_data};
